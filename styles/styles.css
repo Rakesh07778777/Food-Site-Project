@@ -879,13 +879,13 @@ padding: 2rem;
 
 .recents{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  position: relative;
 }
 
 .recents-heading{
   position: relative; 
   padding:0 2rem;
+  top: -100%;
 }
 
 .recents-heading span{
@@ -903,15 +903,17 @@ padding: 2rem;
 
 .recent-flex{
   height: 50vh;
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1.4rem;
   padding: 2rem;
 }
 .recents-recipe-image{
   height: 100% ;
-  flex: 1; 
+  width: 50%;
+  flex: 0 1 400px;
 }
 .recents-recipe-image img{
   height: 100%;
@@ -921,10 +923,45 @@ padding: 2rem;
 
 .recents-recipe-texts{
   height: 100%;
-  flex: 1; 
+  padding: 2rem 0;
+  width: 50%;
+  flex: 0 1 400px;
+
 }
-.recents-recipe-right{
-  height: 100%;
-  flex: 1; 
+.recent-icons{
+  display: flex;
+  gap: 1.4rem;
+}
+
+.recent-icons h6{
+  font-weight: 300;
+}
+
+.recents-recipe-texts h2{
+  font-weight: 400;
+  margin-top: 1.4rem;
+  font-size: 2rem;
+}
+.recents-recipe-texts p{
+  font-weight: 400;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #747474;
+}
+
+.aside{
   border: 2px solid red;
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.recents-recipe-right{
+  height: 50vh;
+  width: 100%;
+  border: 2px solid black;
 }
