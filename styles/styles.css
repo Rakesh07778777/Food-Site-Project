@@ -885,11 +885,10 @@ padding: 2rem;
 .recents-heading{
   position: relative; 
   padding:0 2rem;
-  top: -100%;
 }
 
 .recents-heading span{
-  width: 60%;
+  width: 50%;
   height: 1px ;
   background-color: pink;
   position: absolute;
@@ -950,7 +949,6 @@ padding: 2rem;
 }
 
 .aside{
-  border: 2px solid red;
   width: 30%;
   position: absolute;
   top: 0;
@@ -960,8 +958,68 @@ padding: 2rem;
   gap: 2rem;
 }
 
-.recents-recipe-right{
-  height: 50vh;
-  width: 100%;
-  border: 2px solid black;
+.categories {
+  border: 1px solid #eee;
+  padding: 1.4rem;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.categories h4 {
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.category-item:hover {
+  transform: translateY(-5px);
+}
+
+.category-item p {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 400;
+}
+
+/* SVG styles */
+.icon {
+  width: 50px;
+  height: 50px;
+  stroke: #333;
+  fill: none;
+  stroke-width: 2;
+  transition: all 0.3s ease;
+}
+
+/* category-specific fills */
+.icon.salad { fill: #b6f7b1; }
+.icon.fastfood { fill: #ffe0a1; }
+.icon.breakfast { fill: #fff4b7; }
+.icon.soup { fill: #ffe2d6; }
+.icon.meat { fill: #ffc4b3; }
+.icon.drink { fill: #c5e7ff; }
+
+/* Hover effect */
+.category-item:hover .icon {
+  stroke: #000;
+  transform: scale(1.1);
 }
