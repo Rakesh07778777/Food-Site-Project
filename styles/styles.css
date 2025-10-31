@@ -301,6 +301,7 @@ ul h2{
 #main{
     background: var(--bg-primary);
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .container{
@@ -897,4 +898,33 @@ padding: 2rem;
 }
 .recents-heading span:nth-child(2){
   top: 20px;
+}
+
+
+.recent-flex{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.4rem;
+  padding: 2rem;
+}
+.recents-recipe-image{
+  height: 100% ;
+  flex: 1; 
+}
+.recents-recipe-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.recents-recipe-texts{
+  height: 100%;
+  flex: 1; 
+}
+.recents-recipe-right{
+  height: 100%;
+  flex: 1; 
+  border: 2px solid red;
 }
