@@ -825,3 +825,25 @@ ul h2{
   font-weight: 300;
   text-align: center;
 }
+
+.menu-recipe{
+min-height: 90vh;
+padding: 2rem;
+}
+
+.books-container{
+  height: 90vh;
+  background-image: url(/images/canva-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 1.4rem;
+}
+
+.recipe-item{
+  height: 100%;
+  width: 40%;
+  /* border: 2px solid red; */
+  padding: 10vw 0;
+}
