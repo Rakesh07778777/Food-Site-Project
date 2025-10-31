@@ -518,7 +518,7 @@ ul h2{
   align-items: stretch;
   justify-content: space-between;
   min-height: 70vh;
-
+  padding: 0  2rem;
   overflow: hidden;
 }
 
@@ -631,4 +631,73 @@ ul h2{
 
 .section-share-icon i:hover {
   transform: translateX(0) scale(1.1);
+}
+
+.college{
+  min-height: 100vh;
+  padding: 2rem;
+  border: 2px solid red;
+}
+
+.college-left{
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.tea{
+  height: 50%;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+
+.tea img{
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tea-text{
+  /* border: 2px solid black; */
+  height: 50%;
+}
+
+.tea-text-icons{
+  display: flex;
+  gap: 1.4rem;
+}
+
+.tea-text-icons h6{
+  font-weight: 300;
+}
+
+.tea-text h4{
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0.8rem;
+}
+
+.tea-image{
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.tea-image img{
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tea-image-flex h5{
+  font-weight: 400;
+}
+
+.tea-image-flex h6{
+  font-weight: 300;
+  text-align: center;
 }
