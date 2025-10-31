@@ -874,3 +874,27 @@ padding: 2rem;
   width: 30%;
   object-fit: cover;
 }
+
+
+.recents{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.recents-heading{
+  position: relative; 
+  padding:0 2rem;
+}
+
+.recents-heading span{
+  width: 60%;
+  height: 1px ;
+  background-color: pink;
+  position: absolute;
+  top: 14px;
+  left: 16%;
+}
+.recents-heading span:nth-child(2){
+  top: 20px;
+}
