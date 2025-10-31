@@ -1074,7 +1074,7 @@ padding: 2rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.2rem;
 }
 .categories3-image{
   height: 80px;
@@ -1101,4 +1101,16 @@ padding: 2rem;
 .categories-txt h4{
   text-align: left;
   font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.categories4 {
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+
+.categories4 img{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
 }
