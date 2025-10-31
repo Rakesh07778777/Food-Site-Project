@@ -908,6 +908,7 @@ padding: 2rem;
   flex-wrap: wrap;
   gap: 1.4rem;
   padding: 2rem;
+  
 }
 .recents-recipe-image{
   height: 100% ;
@@ -961,10 +962,8 @@ padding: 2rem;
 .categories {
   border: 1px solid #eee;
   padding: 1.4rem;
-  border-radius: 12px;
   text-align: center;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 .categories h4 {
@@ -1022,4 +1021,84 @@ padding: 2rem;
 .category-item:hover .icon {
   stroke: #000;
   transform: scale(1.1);
+}
+
+
+.categories2 {
+  border: 1px solid #eee;
+  padding: 4rem 1.4rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.categories2 h2{
+  font-weight: 400;
+}
+.categories2 h6{
+  font-weight: 300;
+  font-size: 1rem;
+  color: #555555;
+  margin: 0.8rem 0;
+}
+
+.categories-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 0.8rem;
+}
+
+.categories-input input{
+  border: none;
+  outline: none;
+  background-color: #c9c9c9;
+  padding: 0.8rem ;
+  border-radius: 8px;
+}
+
+.categories-input button{
+  border: none;
+  outline: none;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+}
+
+.categories3 {
+  border: 1px solid #eee;
+  padding:  1.4rem;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.categories3-image{
+  height: 80px;
+  display: flex;
+}
+.categories3-image img{
+  height: 100%;
+  width: 30%;
+  object-fit: cover;
+}
+
+.categories-txt{
+  padding: 0 1.4rem;
+}
+.categories-txt h6{
+  text-align: left;
+  font-weight: 300;
+}
+.categories3 > h4{
+  font-weight: 400;
+  border-bottom: 1px solid rgb(156, 156, 156);
+  padding: 0.4rem 0;
+}
+.categories-txt h4{
+  text-align: left;
+  font-weight: 400;
 }
