@@ -988,6 +988,10 @@ padding: 2rem;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
+.category-item img{
+  height: 34px;
+  width: 34px;
+}
 
 .category-item:hover {
   transform: translateY(-5px);
