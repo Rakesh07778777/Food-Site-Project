@@ -1122,26 +1122,43 @@ padding: 2rem;
 
 
 .page{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .page2{
   height: 70vh;
   width: 100%;
-  /* display: flex;
+}
+
+.page-text{
+  width: 100%;
+  display: flex;
   flex-direction: column;
-  gap: 2rem;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
+}
+
+.page-text h1{
+  font-weight: 400;
+}
+
+.page-text p{
+  max-width: 400px;
+  text-align: center;
+  margin-top: 1.2rem;
+  font-weight: 300;
+  color: #343434;
+  font-size: 1rem;
 }
 
 .page-video {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.8rem;
   height: 80%;
   width: 100%;
@@ -1149,8 +1166,8 @@ padding: 2rem;
 }
 
 .page-video video{
-  height: 100%;
-  width: 40%;
+  height: 80%;
+  width: 50%;
   object-fit: cover;
 }
 
