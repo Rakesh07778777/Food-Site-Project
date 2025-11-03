@@ -1127,6 +1127,10 @@ padding: 2rem;
     display: flex;
     flex-direction: column;
     padding: 4rem;
+    background-image: url(/images/bg-canva-2.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
 }
 
 .page2{
