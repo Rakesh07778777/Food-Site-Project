@@ -1203,3 +1203,10 @@ padding: 2rem;
 .page2{
   height: 100vh;
 }
+
+
+.item-image img{
+  height: 100px;
+  width: 120px;
+  object-fit: cover;
+}
