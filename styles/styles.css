@@ -1204,6 +1204,12 @@ padding: 2rem;
   height: 100vh;
 }
 
+.pop-recipe{
+  min-height: 70vh;
+  width: 100%;
+}
+
+
 
 .item-image img{
   height: 100px;
