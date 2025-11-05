@@ -1209,7 +1209,13 @@ padding: 2rem;
   width: 100%;
 }
 
-
+.pop-recipe_container{
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: center;
+}
 
 .item-image img{
   height: 100px;
