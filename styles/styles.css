@@ -1218,7 +1218,12 @@ padding: 2rem;
 }
 
 .item-image img{
-  height: 100px;
-  width: 120px;
+  height: 80%;
+  width: 100%;
   object-fit: cover;
+}
+
+.item-image{
+  width: 20%;
+  height: 200px;
 }
