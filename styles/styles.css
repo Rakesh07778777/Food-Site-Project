@@ -1223,6 +1223,10 @@ padding: 2rem;
   object-fit: cover;
 }
 
+.item-image img:hover{
+  transform: scale(1.2);
+}
+
 .item-image{
   width: 20%;
   height: 200px;
