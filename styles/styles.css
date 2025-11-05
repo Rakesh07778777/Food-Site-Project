@@ -1225,10 +1225,11 @@ padding: 2rem;
 }
 
 .item-image img:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .item-image{
   width: 20%;
   height: 200px;
+  overflow: hidden;
 }
