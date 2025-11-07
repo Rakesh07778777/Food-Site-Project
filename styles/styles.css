@@ -298,6 +298,10 @@ ul h2{
    border-bottom: 1px solid var(--text-primary);
 }
 
+.menu{
+  display: none;
+}
+
 #main{
     background: var(--bg-primary);
     min-height: 100vh;
@@ -310,8 +314,7 @@ ul h2{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    background-image: url(../images/pexels-elletakesphotos-1660030.jpg);
+    background-image: url(../images/bg-canva-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -320,6 +323,7 @@ ul h2{
 .container .left-container{
     width: 40%;
     height: 70%;
+    flex: 0 1 600px;
     display: flex;
     flex-direction: column;
     padding: var(--padding-xl);
@@ -1255,4 +1259,30 @@ padding: 2rem;
 
 .item-image h4{
   font-weight: 300;
+}
+
+
+@media screen and (max-width: 786px) {
+
+  #header{
+    padding: .8rem 2rem;
+  }
+  nav{
+    display: none;
+  }
+
+  .menu{
+    display: block;
+  }
+
+  .container .left-container{
+    width: 40%;
+    height: 50%;
+    flex: 0 1 600px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-xl);
+    border-radius: 4px;
+    box-shadow: var(--shadow-lg-light) ;
+}
 }
