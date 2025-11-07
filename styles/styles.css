@@ -1217,6 +1217,40 @@ ul h2{
     font-weight: 300;
 }
 
+footer{
+    height: 40vh;
+    width: 100%;
+}
+
+.top-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/bg-canva3.jpg);
+    height: 60%;
+    h2{
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    h4{
+        font-weight: 300;
+        font-size: 1rem;
+        margin-top: 0.8rem;
+    }
+
+    button{
+        border: none;
+        margin-top: 1rem;
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
+        border-radius: 4px;
+        background-color: #111;
+        color: #fff;
+    }
+}
+
 /* ============================================
    RESPONSIVE BREAKPOINTS
    ============================================ */
