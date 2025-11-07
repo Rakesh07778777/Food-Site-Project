@@ -435,7 +435,6 @@ ul h2{
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
-
 }
 
 .bottom-center h2{
@@ -478,19 +477,22 @@ ul h2{
     padding:  var(--padding-xxl) 0;
     background: var(--bg-primary);
     min-height: 70vh;
-    height: 60vh;
+    background: red;
 }
 
 .card-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     height: 60vh;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 .card{
     height: 100%;
+    border: 2px solid black;
+    flex: 1 1 200px;
 
 }
 
@@ -1276,13 +1278,65 @@ padding: 2rem;
   }
 
   .container .left-container{
-    width: 40%;
     height: 50%;
-    flex: 0 1 600px;
+}
+
+.bottom-container{
+    height: 40vh;
+    margin-top: 14px;
+}
+
+.bottom-center{
+    height: 100%;
+    flex-direction: column;
+    padding: var(--padding-m) var(--padding-l);
+}
+
+
+
+.inputs{
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs button{
+    padding: var(--padding-m) var(--padding-xl);
+}
+
+.bottom-container input{
+    width: 80%;
+}
+
+.recipe-section{
+    padding:  var(--padding-xxl) 0;
+    background: var(--bg-primary);
+    min-height: 100vh;
+    background: red;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    height: 60vh;
+}
+
+.card{
+    height: 50%;
     display: flex;
     flex-direction: column;
-    padding: var(--padding-xl);
-    border-radius: 4px;
-    box-shadow: var(--shadow-lg-light) ;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.card img{
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+}
+
 }
