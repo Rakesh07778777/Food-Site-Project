@@ -1159,6 +1159,7 @@ padding: 2rem;
   font-size: 1rem;
 }
 
+
 .page-video {
   display: flex;
   justify-content: center;
@@ -1168,11 +1169,22 @@ padding: 2rem;
   width: 100%;
   margin-top: 1.2rem;
 }
-
-.page-video video{
+.page-video-container{
   height: 80%;
   width: 50%;
+  overflow: hidden;
+}
+
+.page-video video{
+  height: 100%;
+  width: 100%;
   object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.page-video video:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .page .move{
@@ -1207,6 +1219,8 @@ padding: 2rem;
 .pop-recipe{
   min-height: 70vh;
   width: 100%;
+  padding: 2rem;
+  font-weight: 500;
 }
 
 .pop-recipe h1{
@@ -1237,4 +1251,8 @@ padding: 2rem;
   width: 20%;
   height: 200px;
   overflow: hidden;
+}
+
+.item-image h4{
+  font-weight: 300;
 }
